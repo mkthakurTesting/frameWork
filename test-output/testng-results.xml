@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24324" started-at="2018-12-14T01:20:33Z" finished-at="2018-12-14T01:20:57Z">
+  <suite name="Default suite" duration-ms="50" started-at="2018-12-14T13:14:44Z" finished-at="2018-12-14T13:14:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24324" started-at="2018-12-14T01:20:33Z" finished-at="2018-12-14T01:20:57Z">
-      <class name="scripts.UserPageScript">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@1efed156]" name="openBrowser" is-config="true" duration-ms="13940" started-at="2018-12-14T06:50:19Z" finished-at="2018-12-14T06:50:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="50" started-at="2018-12-14T13:14:44Z" finished-at="2018-12-14T13:14:44Z">
+      <class name="staticDataManager.ApplicationLevelMethod">
+        <test-method status="PASS" signature="getColumnHeading()[pri:0, instance:staticDataManager.ApplicationLevelMethod@402a079c]" name="getColumnHeading" duration-ms="14" started-at="2018-12-14T18:44:44Z" finished-at="2018-12-14T18:44:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156]" name="verifyUserPageNavigation" duration-ms="20757" started-at="2018-12-14T06:50:33Z" finished-at="2018-12-14T06:50:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserPageNavigation -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="165" started-at="2018-12-14T06:50:54Z" finished-at="2018-12-14T06:50:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156]" name="verifyUserSearchWithInvalidUserName" duration-ms="3353" started-at="2018-12-14T06:50:54Z" finished-at="2018-12-14T06:50:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserSearchWithInvalidUserName -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-14T06:50:57Z" finished-at="2018-12-14T06:50:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@1efed156]" name="stopFatchingReportInformation" is-config="true" duration-ms="5490" started-at="2018-12-14T06:50:57Z" finished-at="2018-12-14T06:51:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopFatchingReportInformation -->
-      </class> <!-- scripts.UserPageScript -->
+        </test-method> <!-- getColumnHeading -->
+      </class> <!-- staticDataManager.ApplicationLevelMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

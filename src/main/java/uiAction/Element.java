@@ -151,8 +151,8 @@ public class Element {
 		int count = 0;
         count = driver.findElements(locator).size();
 	
-		logger.info("elementCount() executed on "+locator);
-		logger.info("elementCount() returned "+count);
+		logger.info("elementCount()... executed on "+locator);
+		logger.info("elementCount()... returned "+count);
 		return count;
 		
 	}

@@ -3,18 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="scripts.LoginPageScript">
+      <class name="staticDataManager.ApplicationLevelMethod">
         <methods>
-          <include name="verifyYoutubeLink"/>
-          <include name="openBrowser"/>
-          <include name="verifyFacebookLink"/>
-          <include name="verifyTwitterLink"/>
-          <include name="verifyLogin"/>
-          <include name="fatchReportInformation"/>
-          <include name="stopFatchingReportInformation"/>
-          <include name="verifyLinkedinLink"/>
+          <include name="getColumnHeading"/>
         </methods>
-      </class> <!-- scripts.LoginPageScript -->
+      </class> <!-- staticDataManager.ApplicationLevelMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
