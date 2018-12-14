@@ -15,6 +15,7 @@ public class UserPage {
   private static By userNameField = By.id("searchSystemUser_userName");
   private static By searchButton = By.id("searchBtn");
   private static By noRecordsFound = By.xpath("//td[text()='No Records Found']");
+  private static By resetButton = By.id("resetBtn");
   
 	public static String checkUserPageNavigation(WebDriver driver){
 		LoginPage.login_in_Application(driver);
@@ -26,13 +27,16 @@ public class UserPage {
 		
 	}
 	public static String checkUserNameSearchWithInvalidData(WebDriver driver){
-		String result = null ;
-		Element.sendKeys(driver, userNameField, RandomData.getPersonFullName());
-		Element.click(driver, searchButton);
-	result =	Element.getText(driver, noRecordsFound);
-		return result ;
+	String result =	Element.verifyTextboxRelatedSearch(driver, userNameField,RandomData.getPersonFullName() ,searchButton , noRecordsFound);
+	                Element.click(driver, resetButton);
+	
+	return  result ;
 		
 	}
-	
+	public static void checkUserNameSearchWithValidData(){
+		
+		
+		
+	}
 	
 }

@@ -163,7 +163,7 @@ public class Element {
 	  return title ;
 	}
 public static String verifyAnyLink(WebDriver driver , By Locator  ){
-		
+	
 		Element.click(driver, Locator);
 		
 	
@@ -179,15 +179,37 @@ public static String verifyAnyLink(WebDriver driver , By Locator  ){
 		 Wait.staticWait(5000);
 		Browser.switchToWindowUsingIndex(driver, 1);
 		String title = Element.getTitle(driver);
+		logger.info("verifyAnyLink()... executed... Returned title is --- "+title);
 	    return title ;
 	}
 public static String verifyTextboxRelatedSearch(WebDriver driver , By searchBoxField ,String searchData ,By SearchButton ,By resultValidation){
+	
 	String result = null ;
 	Element.sendKeys(driver, searchBoxField, searchData);
 	Element.click(driver, SearchButton);
 result =	Element.getText(driver, resultValidation);
+logger.info("verifyTextboxRelatedSearch()... Executed ... Returned Text is --- "+result);
 	return result ;
 	
+	
+}
+public static boolean resetButtonTesting(WebDriver driver , By targetField ,By resetButton){
+	boolean b = false ;
+  String dataInTargetSectionBeforeReset =	Element.getText(driver, targetField);
+   Element.click(driver, resetButton);
+   String dataInTargetSectionAfterReset =	Element.getText(driver, targetField);
+   if(dataInTargetSectionBeforeReset != dataInTargetSectionAfterReset){
+	
+	   logger.info("resetButtonTesting()...Executing successfully ");
+	   b = true ;
+	   
+   }else {
+	   logger.info("resetButtonTesting()...failed from  Execution ");   
+	   
+   }
+	
+   logger.info("resetButtonTesting()...returning  "+b);
+	return b ;
 	
 }
 }

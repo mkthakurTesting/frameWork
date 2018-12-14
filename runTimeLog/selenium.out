@@ -4568,3 +4568,131 @@ Session ID: f09ba4adcbf146afa15c33904c478ebc
 2018-12-13 06:34:28 INFO  Browser:74 - returned set of windows name 
 2018-12-13 06:34:28 INFO  Browser:82 - Total windows size is 3
 2018-12-13 06:34:28 INFO  Browser:88 - 2 th window Handled
+2018-12-14 06:27:40 INFO  StartBrowser:39 -  * Test case Execution Start On chrome Browser *
+2018-12-14 06:27:41 INFO  Browser:19 - maximizeBrowser()...executed--- Browser Maximized
+2018-12-14 06:27:41 INFO  Wait:159 - implicitWait()...Executed---provided time is 30
+2018-12-14 06:27:52 INFO  Browser:27 - loadUrl()...executed---Loaded Url Is --https://opensource-demo.orangehrmlive.com/
+2018-12-14 06:27:52 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:52 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: txtUsername ]
+2018-12-14 06:27:52 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:52 INFO  Element:62 -  sendKeys() Executed on By.name: txtUsername with data Admin
+2018-12-14 06:27:52 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:52 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: txtPassword ]
+2018-12-14 06:27:52 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:52 INFO  Element:62 -  sendKeys() Executed on By.name: txtPassword with data admin123
+2018-12-14 06:27:52 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:53 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: Submit ]
+2018-12-14 06:27:53 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:53 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.name: Submit ] for timeInSec [ 30 ]
+2018-12-14 06:27:59 INFO  Element:24 -  click() executed on By.name: Submit
+2018-12-14 06:27:59 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:59 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_viewAdminModule ]
+2018-12-14 06:27:59 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:59 INFO  Action:45 - mouseHover()...executing---on [ By.id: menu_admin_viewAdminModule ]
+2018-12-14 06:27:59 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:59 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_UserManagement ]
+2018-12-14 06:27:59 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:59 INFO  Action:45 - mouseHover()...executing---on [ By.id: menu_admin_UserManagement ]
+2018-12-14 06:27:59 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:27:59 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_viewSystemUsers ]
+2018-12-14 06:27:59 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:27:59 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.id: menu_admin_viewSystemUsers ] for timeInSec [ 30 ]
+2018-12-14 06:28:01 INFO  Element:24 -  click() executed on By.id: menu_admin_viewSystemUsers
+2018-12-14 06:28:01 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:28:01 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.xpath: //h1[text()='System Users'] ]
+2018-12-14 06:28:01 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:28:01 INFO  Element:76 - getText() executed on By.xpath: //h1[text()='System Users'] captured Text is System Users
+2018-12-14 06:28:01 INFO  Element:80 - getText() returned System Users
+2018-12-14 06:28:01 INFO  ExtentReport:45 - verifyUserPageNavigation* Method successfully Executed *
+2018-12-14 06:28:02 INFO  RandomData:17 - getPersonFullName()...Executing and Returning ....Grayson Blanchard
+2018-12-14 06:28:02 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:28:03 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: searchSystemUser_userName ]
+2018-12-14 06:28:03 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:28:03 INFO  Element:62 -  sendKeys() Executed on By.id: searchSystemUser_userName with data Grayson Blanchard
+2018-12-14 06:28:03 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:28:03 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: searchBtn ]
+2018-12-14 06:28:03 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:28:03 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.id: searchBtn ] for timeInSec [ 30 ]
+2018-12-14 06:28:04 INFO  Element:24 -  click() executed on By.id: searchBtn
+2018-12-14 06:28:04 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:28:04 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.xpath: //td[text()='No Records Found'] ]
+2018-12-14 06:28:04 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:28:04 INFO  Element:76 - getText() executed on By.xpath: //td[text()='No Records Found'] captured Text is No Records Found
+2018-12-14 06:28:04 INFO  Element:80 - getText() returned No Records Found
+2018-12-14 06:28:04 INFO  ExtentReport:45 - verifyUserSearchWithInvalidUserName* Method successfully Executed *
+2018-12-14 06:28:05 INFO  ExtentReport:62 - * Extend Report Flushed  *
+2018-12-14 06:28:05 INFO  ScriptExecutor:124 - openNewTab() Executed successfully
+2018-12-14 06:28:05 INFO  Browser:74 - returned set of windows name 
+2018-12-14 06:28:05 INFO  Browser:82 - Total windows size is 2
+2018-12-14 06:28:05 INFO  Browser:88 - 1 th window Handled
+2018-12-14 06:28:09 INFO  ScriptExecutor:124 - openNewTab() Executed successfully
+2018-12-14 06:28:09 INFO  Browser:74 - returned set of windows name 
+2018-12-14 06:28:09 INFO  Browser:82 - Total windows size is 3
+2018-12-14 06:28:09 INFO  Browser:88 - 2 th window Handled
+2018-12-14 06:50:23 INFO  StartBrowser:39 -  * Test case Execution Start On chrome Browser *
+2018-12-14 06:50:24 INFO  Browser:19 - maximizeBrowser()...executed--- Browser Maximized
+2018-12-14 06:50:24 INFO  Wait:159 - implicitWait()...Executed---provided time is 30
+2018-12-14 06:50:33 INFO  Browser:27 - loadUrl()...executed---Loaded Url Is --https://opensource-demo.orangehrmlive.com/
+2018-12-14 06:50:33 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:33 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: txtUsername ]
+2018-12-14 06:50:33 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:33 INFO  Element:62 -  sendKeys() Executed on By.name: txtUsername with data Admin
+2018-12-14 06:50:33 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:33 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: txtPassword ]
+2018-12-14 06:50:33 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:33 INFO  Element:62 -  sendKeys() Executed on By.name: txtPassword with data admin123
+2018-12-14 06:50:33 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:34 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.name: Submit ]
+2018-12-14 06:50:34 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:34 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.name: Submit ] for timeInSec [ 30 ]
+2018-12-14 06:50:39 INFO  Element:24 -  click() executed on By.name: Submit
+2018-12-14 06:50:39 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:39 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_viewAdminModule ]
+2018-12-14 06:50:39 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:40 INFO  Action:45 - mouseHover()...executing---on [ By.id: menu_admin_viewAdminModule ]
+2018-12-14 06:50:40 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:40 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_UserManagement ]
+2018-12-14 06:50:40 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:40 INFO  Action:45 - mouseHover()...executing---on [ By.id: menu_admin_UserManagement ]
+2018-12-14 06:50:40 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:51 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: menu_admin_viewSystemUsers ]
+2018-12-14 06:50:51 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:51 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.id: menu_admin_viewSystemUsers ] for timeInSec [ 30 ]
+2018-12-14 06:50:54 INFO  Element:24 -  click() executed on By.id: menu_admin_viewSystemUsers
+2018-12-14 06:50:54 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:54 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.xpath: //h1[text()='System Users'] ]
+2018-12-14 06:50:54 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:54 INFO  Element:76 - getText() executed on By.xpath: //h1[text()='System Users'] captured Text is System Users
+2018-12-14 06:50:54 INFO  Element:80 - getText() returned System Users
+2018-12-14 06:50:54 INFO  ExtentReport:45 - verifyUserPageNavigation* Method successfully Executed *
+2018-12-14 06:50:55 INFO  RandomData:17 - getPersonFullName()...Executing and Returning ....Arianna Benjamin
+2018-12-14 06:50:55 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:55 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: searchSystemUser_userName ]
+2018-12-14 06:50:55 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:55 INFO  Element:62 -  sendKeys() Executed on By.id: searchSystemUser_userName with data Arianna Benjamin
+2018-12-14 06:50:55 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:55 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: searchBtn ]
+2018-12-14 06:50:55 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:55 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.id: searchBtn ] for timeInSec [ 30 ]
+2018-12-14 06:50:56 INFO  Element:24 -  click() executed on By.id: searchBtn
+2018-12-14 06:50:56 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:56 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.xpath: //td[text()='No Records Found'] ]
+2018-12-14 06:50:56 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:56 INFO  Element:76 - getText() executed on By.xpath: //td[text()='No Records Found'] captured Text is No Records Found
+2018-12-14 06:50:56 INFO  Element:80 - getText() returned No Records Found
+2018-12-14 06:50:56 INFO  Element:191 - verifyTextboxRelatedSearch()... Executed ... Returned Text is --- No Records Found
+2018-12-14 06:50:56 INFO  Wait:31 - getWait() Executed Assigned  time is [ 30] polling time is [ 5 ]
+2018-12-14 06:50:56 INFO  Wait:56 - checkElementExistance() executed .... founded locator is --[ By.id: resetBtn ]
+2018-12-14 06:50:56 INFO  Wait:62 - checkElementExistance() --- returning element existance on webpage true
+2018-12-14 06:50:56 INFO  Wait:88 - waitForElementClickable() -- executing on [ By.id: resetBtn ] for timeInSec [ 30 ]
+2018-12-14 06:50:57 INFO  Element:24 -  click() executed on By.id: resetBtn
+2018-12-14 06:50:57 INFO  ExtentReport:45 - verifyUserSearchWithInvalidUserName* Method successfully Executed *
+2018-12-14 06:50:58 INFO  ExtentReport:62 - * Extend Report Flushed  *
+2018-12-14 06:50:58 INFO  ScriptExecutor:124 - openNewTab() Executed successfully
+2018-12-14 06:50:58 INFO  Browser:74 - returned set of windows name 
+2018-12-14 06:50:58 INFO  Browser:82 - Total windows size is 2
+2018-12-14 06:50:58 INFO  Browser:88 - 1 th window Handled
+2018-12-14 06:51:02 INFO  ScriptExecutor:124 - openNewTab() Executed successfully
+2018-12-14 06:51:02 INFO  Browser:74 - returned set of windows name 
+2018-12-14 06:51:02 INFO  Browser:82 - Total windows size is 3
+2018-12-14 06:51:02 INFO  Browser:88 - 2 th window Handled
