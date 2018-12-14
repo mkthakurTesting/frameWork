@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49652" started-at="2018-12-13T01:03:33Z" finished-at="2018-12-13T01:04:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49652" started-at="2018-12-13T01:03:33Z" finished-at="2018-12-13T01:04:23Z">
+      <class name="scripts.LoginPageScript">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="openBrowser" is-config="true" duration-ms="13385" started-at="2018-12-13T06:33:20Z" finished-at="2018-12-13T06:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@6737fd8f]" name="verifyLoginPageExistance" duration-ms="205" started-at="2018-12-13T06:33:33Z" finished-at="2018-12-13T06:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.LoginPageScript.verifyLoginPageExistance(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageExistance -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="169" started-at="2018-12-13T06:33:33Z" finished-at="2018-12-13T06:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageExistance status=SUCCESS method=LoginPageScript.verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@6737fd8f]" name="verify_Username_Password_LoginButtonField" duration-ms="175" started-at="2018-12-13T06:33:34Z" finished-at="2018-12-13T06:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.LoginPageScript.verify_Username_Password_LoginButtonField(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Username_Password_LoginButtonField -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:33:34Z" finished-at="2018-12-13T06:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Username_Password_LoginButtonField status=SUCCESS method=LoginPageScript.verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@6737fd8f]" name="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection" duration-ms="1663" started-at="2018-12-13T06:33:34Z" finished-at="2018-12-13T06:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.LoginPageScript.verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:33:36Z" finished-at="2018-12-13T06:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection status=SUCCESS method=LoginPageScript.verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyOrangeHrMLink()[pri:4, instance:scripts.LoginPageScript@6737fd8f]" name="verifyOrangeHrMLink" duration-ms="6962" started-at="2018-12-13T06:33:36Z" finished-at="2018-12-13T06:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHrMLink -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:33:42Z" finished-at="2018-12-13T06:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrangeHrMLink status=SUCCESS method=LoginPageScript.verifyOrangeHrMLink()[pri:4, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyFacebookLink()[pri:6, instance:scripts.LoginPageScript@6737fd8f]" name="verifyFacebookLink" duration-ms="12128" started-at="2018-12-13T06:33:42Z" finished-at="2018-12-13T06:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookLink -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:33:55Z" finished-at="2018-12-13T06:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacebookLink status=SUCCESS method=LoginPageScript.verifyFacebookLink()[pri:6, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyTwitterLink()[pri:7, instance:scripts.LoginPageScript@6737fd8f]" name="verifyTwitterLink" duration-ms="7355" started-at="2018-12-13T06:33:55Z" finished-at="2018-12-13T06:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterLink -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:34:02Z" finished-at="2018-12-13T06:34:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTwitterLink status=SUCCESS method=LoginPageScript.verifyTwitterLink()[pri:7, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyYoutubeLink()[pri:8, instance:scripts.LoginPageScript@6737fd8f]" name="verifyYoutubeLink" duration-ms="8794" started-at="2018-12-13T06:34:02Z" finished-at="2018-12-13T06:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYoutubeLink -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:34:11Z" finished-at="2018-12-13T06:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyYoutubeLink status=SUCCESS method=LoginPageScript.verifyYoutubeLink()[pri:8, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.reflect.Method)[pri:9, instance:scripts.LoginPageScript@6737fd8f]" name="verifyLogin" duration-ms="12129" started-at="2018-12-13T06:34:11Z" finished-at="2018-12-13T06:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.LoginPageScript.verifyLogin(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-13T06:34:23Z" finished-at="2018-12-13T06:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginPageScript.verifyLogin(java.lang.reflect.Method)[pri:9, instance:scripts.LoginPageScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.LoginPageScript@6737fd8f]" name="stopFatchingReportInformation" is-config="true" duration-ms="6402" started-at="2018-12-13T06:34:23Z" finished-at="2018-12-13T06:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopFatchingReportInformation -->
+      </class> <!-- scripts.LoginPageScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

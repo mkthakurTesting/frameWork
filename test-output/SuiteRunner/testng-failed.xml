@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteRunner]">
+  <parameter name="browserName" value="chrome"/>
+  <test name="LoginPage(failed)">
+    <classes>
+      <class name="invokeBrowser.StartBrowser">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- invokeBrowser.StartBrowser -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [SuiteRunner] -->
