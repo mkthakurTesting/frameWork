@@ -23,7 +23,13 @@ public class UserPageScript extends StartBrowser {
       
       
     }
-	public void verifyResetButtonInUserNameSection(){
+	@Test(priority=3)
+	public void SearchWithValidUser(){
 		
+	
+	boolean b = UserPage.searchUserNameUsingValidData(driver, "Username", 2);
+	
+	Assert.assertTrue(b);
+	 
 	}
 }

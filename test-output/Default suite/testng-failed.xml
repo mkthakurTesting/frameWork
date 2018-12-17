@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="staticDataManager.ApplicationLevelMethod">
+      <class name="scripts.UserPageScript">
         <methods>
-          <include name="getColumnHeading"/>
+          <include name="openBrowser"/>
+          <include name="SearchWithValidUser"/>
+          <include name="fatchReportInformation"/>
+          <include name="stopFatchingReportInformation"/>
         </methods>
-      </class> <!-- staticDataManager.ApplicationLevelMethod -->
+      </class> <!-- scripts.UserPageScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

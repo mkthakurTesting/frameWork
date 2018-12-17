@@ -7,12 +7,13 @@ import org.testng.annotations.Test;
 
 import helper.Action;
 import uiAction.Element;
+import utility.ScriptExecutor;
 
 public class ApplicationLevelMethod {
 
 	private static Logger logger = Logger.getLogger(ApplicationLevelMethod.class);
 
-	public static boolean isColumnMatching(WebDriver driver, String columnName) {
+	public static boolean isColumnHeadingMatching(WebDriver driver, String columnName) {
 		boolean b = false;
 		By columnLoc = By.xpath("//th");
 		int columnCount = Element.elementCount(driver, columnLoc);
@@ -61,7 +62,7 @@ public class ApplicationLevelMethod {
 		int rowCount = Element.elementCount(driver, rowLoc) - 1;
 		if (rowCount >= 1) {
 
-			recordData = rowCount * 4;
+			recordData = rowCount * 5;
 
 		} else {
 
@@ -71,5 +72,57 @@ public class ApplicationLevelMethod {
 		logger.info("getTotalRecordsData()....Returning totalRecordData is " + recordData);
 		return recordData;
 	}
-   
+	 public static int getTotalRowCount(WebDriver driver){
+		 int rowCount = 0;
+		 By rowLoc = By.xpath("//tr");
+		rowCount = Element.elementCount(driver, rowLoc);
+		 return rowCount  ;
+		 
+	 }
+	 public static int getTotalHeading(WebDriver driver){
+		 int headingCount = 0;
+		 
+		 By headingLoc = By.xpath("//th");
+		 
+		 headingCount = Element.elementCount(driver, headingLoc);
+		 
+		 return headingCount ;
+		 
+	 }
+	
+	
+	public static String getColumnData(WebDriver driver ,String columnName ,int desireRow){
+		
+		   String columnData = null ;
+		   
+		   int IndexMatched =	getIndexValueWhereColumnMatching(driver, columnName);
+		   int headingCount = getTotalHeading(driver);
+		   int totalRow = getTotalRowCount(driver);
+		   int finalRow = desireRow + 1 ;
+		
+       if(isColumnHeadingMatching(driver, columnName)&& totalRow >= desireRow){
+			         
+		  
+		    for(int i=IndexMatched ;i<= headingCount ;i++){
+		    	 
+		    	 String data = "(//tr)["+finalRow+"]/td["+IndexMatched+"]/a";
+		    	 By dataLoc = By.xpath(data);
+		    	 ScriptExecutor.scrollInToView(dataLoc);
+		    	 columnData = Element.getText(driver, dataLoc);
+		    	 break ;
+		    	   
+		    }
+		   
+			
+		}else {
+			
+			logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
+		}
+		logger.info("getColumnData()...Returning---"+columnData);
+		
+		return columnData;
+		
+	}
+	  
+    
 }
