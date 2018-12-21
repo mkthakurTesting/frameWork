@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10676" started-at="2018-12-17T11:20:39Z" finished-at="2018-12-17T11:20:50Z">
+  <suite name="Default suite" duration-ms="20411" started-at="2018-12-21T00:48:16Z" finished-at="2018-12-21T00:48:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10676" started-at="2018-12-17T11:20:39Z" finished-at="2018-12-17T11:20:50Z">
+    <test name="Default test" duration-ms="20411" started-at="2018-12-21T00:48:16Z" finished-at="2018-12-21T00:48:37Z">
       <class name="scripts.UserPageScript">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="openBrowser" is-config="true" duration-ms="8390" started-at="2018-12-17T16:50:31Z" finished-at="2018-12-17T16:50:39Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@1efed156]" name="openBrowser" is-config="true" duration-ms="27094" started-at="2018-12-21T06:17:49Z" finished-at="2018-12-21T06:18:16Z">
           <params>
             <param index="0">
               <value>
@@ -18,52 +18,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@6737fd8f]" name="verifyUserPageNavigation" duration-ms="5405" started-at="2018-12-17T16:50:39Z" finished-at="2018-12-17T16:50:45Z">
+        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156]" name="verifyUserPageNavigation" duration-ms="11034" started-at="2018-12-21T06:18:17Z" finished-at="2018-12-21T06:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserPageNavigation -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="129" started-at="2018-12-17T16:50:45Z" finished-at="2018-12-17T16:50:45Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="933" started-at="2018-12-21T06:18:28Z" finished-at="2018-12-21T06:18:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@6737fd8f]" name="verifyUserSearchWithInvalidUserName" duration-ms="2667" started-at="2018-12-17T16:50:45Z" finished-at="2018-12-17T16:50:47Z">
+        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156]" name="verifyUserSearchWithInvalidUserName" duration-ms="4437" started-at="2018-12-21T06:18:29Z" finished-at="2018-12-21T06:18:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserSearchWithInvalidUserName -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-17T16:50:47Z" finished-at="2018-12-17T16:50:47Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-21T06:18:33Z" finished-at="2018-12-21T06:18:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@6737fd8f]" name="SearchWithValidUser" duration-ms="2440" started-at="2018-12-17T16:50:47Z" finished-at="2018-12-17T16:50:50Z">
+        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156]" name="SearchWithValidUser" duration-ms="3467" started-at="2018-12-21T06:18:33Z" finished-at="2018-12-21T06:18:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchWithValidUser -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="6" started-at="2018-12-17T16:50:50Z" finished-at="2018-12-17T16:50:50Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="2" started-at="2018-12-21T06:18:37Z" finished-at="2018-12-21T06:18:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchWithValidUser status=SUCCESS method=UserPageScript.SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[[TestResult name=SearchWithValidUser status=SUCCESS method=UserPageScript.SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="stopFatchingReportInformation" is-config="true" duration-ms="6433" started-at="2018-12-17T16:50:50Z" finished-at="2018-12-17T16:50:56Z">
+        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@1efed156]" name="stopFatchingReportInformation" is-config="true" duration-ms="6480" started-at="2018-12-21T06:18:37Z" finished-at="2018-12-21T06:18:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFatchingReportInformation -->

@@ -116,7 +116,7 @@ public class ApplicationLevelMethod {
 			
 		}else {
 			
-			logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
+		logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
 		}
 		logger.info("getColumnData()...Returning---"+columnData);
 		

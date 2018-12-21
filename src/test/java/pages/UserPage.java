@@ -55,11 +55,17 @@ public class UserPage {
 
 	}
     public static void searchByUserRole(WebDriver driver ,String Value){
-       
+       String admin = "Admin";
     	 
-    	int dropDown = DropDown.getTotalDropDownValueCount(driver, userRole);
+     if( DropDown.checkDropDownValueExistance(driver, userRole, "Admin")){
+    	 DropDown.SelectByValue(driver, userRole, admin);
+    	 Element.click(driver, searchButton);
+    	 
+     }else {
+    	 
+     }
     	    
-    	//(int =)
+    	  
       
     	
          
