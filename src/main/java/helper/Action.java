@@ -38,7 +38,7 @@ public class Action {
 	public static void mouseHover( WebDriver driver, By locator) {
 		
 		if (Wait.checkElementExistance(driver, 30, 5, locator)){
-		Actions act = new Actions(driver);
+			Actions act = new Actions(driver);
 
 		WebElement elm = driver.findElement(locator);
 		act.moveToElement(elm).perform();
@@ -51,9 +51,9 @@ public class Action {
 	}
 
 	public static void mouseHoverAndClick( WebDriver driver, By locator) {
-		
-		if (Wait.checkElementExistance(driver, 30, 5, locator)){
 		Actions act = new Actions(driver);
+		if (Wait.checkElementExistance(driver, 30, 5, locator)){
+		  act = new Actions(driver);
 		WebElement elm = driver.findElement(locator);
 		act.moveToElement(elm).click().build().perform();
 		logger.info("mouseHoverAndClick()...executing on [ "+locator+ " ]");
@@ -65,9 +65,9 @@ public class Action {
 	}
 
 	public static void rightclickOnElement( WebDriver driver, By locator) {
-	
-		if (Wait.checkElementExistance(driver, 30, 5, locator)){
 		Actions act = new Actions(driver);
+		if (Wait.checkElementExistance(driver, 30, 5, locator)){
+		 act = new Actions(driver);
 		WebElement elm = driver.findElement(locator);
 		act.contextClick(elm).perform();
 		logger.info("rightclickOnElement()...executing on [ "+locator+ " ]");
@@ -79,9 +79,9 @@ public class Action {
 	}
 
 	public void clickOnElement( WebDriver driver, By locator) {
-	
-		if (Wait.checkElementExistance(driver, 30, 5, locator)){
 		Actions act = new Actions(driver);
+		if (Wait.checkElementExistance(driver, 30, 5, locator)){
+		
 		WebElement elm = driver.findElement(locator);
 		act.click(elm).perform();
 		logger.info("clickOnElement()...executing on [ "+locator+ " ]");
@@ -93,9 +93,9 @@ public class Action {
 	}
 
 	public void doubleClickOnElement( WebDriver driver, By locator) {
-		
-		if (Wait.checkElementExistance(driver, 30, 5, locator)){
 		Actions act = new Actions(driver);
+		if (Wait.checkElementExistance(driver, 30, 5, locator)){
+	
 		WebElement elm = driver.findElement(locator);
 		act.doubleClick(elm).perform();
 		logger.info("doubleClickOnElement()...executing on [ "+locator+ " ]");
@@ -109,9 +109,9 @@ public class Action {
 	}
 
 	public static void clickAndHold( WebDriver driver, By locator){
-		
-		if (Wait.checkElementExistance(driver, 30, 5, locator)){
 		Actions act = new Actions(driver);
+		if (Wait.checkElementExistance(driver, 30, 5, locator)){
+	
 		WebElement elm = driver.findElement(locator);
 		act.clickAndHold(elm);
 		logger.info("clickAndHold()...executing on [ "+locator+ " ]");

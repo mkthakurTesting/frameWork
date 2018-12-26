@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,7 +11,8 @@ import uiAction.Element;
 import utility.RandomData;
 
 public class UserPage {
-	private static By AdminLink = By.id("menu_admin_viewAdminModule");
+	private static Logger logger = Logger.getLogger(UserPage.class);
+	private static By AdminLink = By.id("menu_admin_viewAdminModule"); 
 	private static By userManagementLink = By.id("menu_admin_UserManagement");
 	private static By userLink = By.id("menu_admin_viewSystemUsers");
 	private static By systemUserHeading = By.xpath("//h1[text()='System Users']");
@@ -28,7 +30,7 @@ public class UserPage {
 		Action.mouseHover(driver, userManagementLink);
 		Element.click(driver, userLink);
 		String heading = Element.getText(driver, systemUserHeading);
-		return heading;
+		return heading ;
 
 	}
 
@@ -54,16 +56,20 @@ public class UserPage {
 		return b;
 
 	}
-    public static void searchByUserRole(WebDriver driver ,String Value){
-       String admin = "Admin";
+    public static boolean  searchByUserRole(WebDriver driver ,String DropDownValue){
+       boolean b = true ;
+       String userRoleColumn="User Role";
     	 
-     if( DropDown.checkDropDownValueExistance(driver, userRole, "Admin")){
-    	 DropDown.SelectByValue(driver, userRole, admin);
+     if( DropDown.checkDropDownValueExistance(driver, userRole, DropDownValue)){
+    	 DropDown.SelectByVisiableText(driver, userRole, DropDownValue);
     	 Element.click(driver, searchButton);
+     b =	 ApplicationLevelMethod.getAllColumeWiseData(driver, userRoleColumn, DropDownValue) ;
     	 
-     }else {
     	 
-     }
+     }else{
+    	 System.out.println("SearchByRole()... Failed from Execution");
+    	 logger.info("SearchByRole()... Failed from Execution");
+     }return b ;
     	    
     	  
       

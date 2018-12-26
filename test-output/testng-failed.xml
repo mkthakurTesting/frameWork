@@ -6,9 +6,9 @@
       <class name="scripts.UserPageScript">
         <methods>
           <include name="openBrowser"/>
-          <include name="SearchWithValidUser"/>
           <include name="fatchReportInformation"/>
           <include name="stopFatchingReportInformation"/>
+          <include name="SearchByAdmin"/>
         </methods>
       </class> <!-- scripts.UserPageScript -->
     </classes>
