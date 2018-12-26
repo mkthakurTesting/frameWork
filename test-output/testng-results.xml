@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15187" started-at="2018-12-26T02:15:40Z" finished-at="2018-12-26T02:15:56Z">
+  <suite name="Default suite" duration-ms="39328" started-at="2018-12-26T02:32:44Z" finished-at="2018-12-26T02:33:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15187" started-at="2018-12-26T02:15:40Z" finished-at="2018-12-26T02:15:56Z">
+    <test name="Default test" duration-ms="39328" started-at="2018-12-26T02:32:44Z" finished-at="2018-12-26T02:33:24Z">
       <class name="scripts.UserPageScript">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@1efed156]" name="openBrowser" is-config="true" duration-ms="11517" started-at="2018-12-26T07:45:29Z" finished-at="2018-12-26T07:45:40Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@1efed156]" name="openBrowser" is-config="true" duration-ms="8910" started-at="2018-12-26T08:02:36Z" finished-at="2018-12-26T08:02:44Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156]" name="verifyUserPageNavigation" duration-ms="6773" started-at="2018-12-26T07:45:40Z" finished-at="2018-12-26T07:45:47Z">
+        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156]" name="verifyUserPageNavigation" duration-ms="27541" started-at="2018-12-26T08:02:45Z" finished-at="2018-12-26T08:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserPageNavigation -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="213" started-at="2018-12-26T07:45:47Z" finished-at="2018-12-26T07:45:47Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="182" started-at="2018-12-26T08:03:12Z" finished-at="2018-12-26T08:03:12Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156]" name="verifyUserSearchWithInvalidUserName" duration-ms="3499" started-at="2018-12-26T07:45:47Z" finished-at="2018-12-26T07:45:51Z">
+        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156]" name="verifyUserSearchWithInvalidUserName" duration-ms="3788" started-at="2018-12-26T08:03:12Z" finished-at="2018-12-26T08:03:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserSearchWithInvalidUserName -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T07:45:51Z" finished-at="2018-12-26T07:45:51Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:16Z" finished-at="2018-12-26T08:03:16Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156]" name="SearchWithValidUser" duration-ms="2754" started-at="2018-12-26T07:45:51Z" finished-at="2018-12-26T07:45:54Z">
+        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156]" name="SearchWithValidUser" duration-ms="2620" started-at="2018-12-26T08:03:16Z" finished-at="2018-12-26T08:03:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchWithValidUser -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="2" started-at="2018-12-26T07:45:54Z" finished-at="2018-12-26T07:45:54Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:19Z" finished-at="2018-12-26T08:03:19Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="SearchByAdmin()[pri:4, instance:scripts.UserPageScript@1efed156]" name="SearchByAdmin" duration-ms="1883" started-at="2018-12-26T07:45:54Z" finished-at="2018-12-26T07:45:56Z">
+        <test-method status="PASS" signature="SearchByAdmin()[pri:4, instance:scripts.UserPageScript@1efed156]" name="SearchByAdmin" duration-ms="1806" started-at="2018-12-26T08:03:19Z" finished-at="2018-12-26T08:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchByAdmin -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="2" started-at="2018-12-26T07:45:56Z" finished-at="2018-12-26T07:45:56Z">
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:20Z" finished-at="2018-12-26T08:03:20Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@1efed156]" name="stopFatchingReportInformation" is-config="true" duration-ms="4940" started-at="2018-12-26T07:45:56Z" finished-at="2018-12-26T07:46:01Z">
+        <test-method status="PASS" signature="searchByEss()[pri:5, instance:scripts.UserPageScript@1efed156]" name="searchByEss" duration-ms="3330" started-at="2018-12-26T08:03:20Z" finished-at="2018-12-26T08:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEss -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="2" started-at="2018-12-26T08:03:24Z" finished-at="2018-12-26T08:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByEss status=SUCCESS method=UserPageScript.searchByEss()[pri:5, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@1efed156]" name="stopFatchingReportInformation" is-config="true" duration-ms="5168" started-at="2018-12-26T08:03:24Z" finished-at="2018-12-26T08:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFatchingReportInformation -->

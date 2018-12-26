@@ -10,6 +10,7 @@ public class UserPageScript extends StartBrowser {
 	String expectedUserPageHeading = "System Users";
 	String noRecordFoundText = "No Records Found";
 	String admin = "Admin";
+	String ess = "ESS";
 
 	@Test(priority = 1)
 	public void verifyUserPageNavigation() {
@@ -38,9 +39,15 @@ public class UserPageScript extends StartBrowser {
 	@Test(priority = 4)
 	public void SearchByAdmin() {
 
-		boolean b = UserPage.searchByUserRole(driver, admin);
+		boolean b = UserPage.SearchByUserRole(driver, admin);
 
 		Assert.assertTrue(b);
 
+	}
+	@Test(priority=5)
+	public void searchByEss(){
+		
+		boolean b =	UserPage.SearchByUserRole(driver, ess);
+		Assert.assertTrue(b);
 	}
 }

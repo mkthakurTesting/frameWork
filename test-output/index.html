@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Murari\AppData\Local\Temp\testng-eclipse--223478666\testng-customsuite.xml</span>
+                    <span>C:\Users\Murari\AppData\Local\Temp\testng-eclipse--1047142862\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="scripts.UserPageScript" hash-for-method="SearchWithValidUser">SearchWithValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="scripts.UserPageScript" hash-for-method="searchByEss">searchByEss</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,6 +159,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="searchByEss">
+                  </a> <!-- searchByEss -->
+                  <span class="method-name">searchByEss</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyUserPageNavigation">
                   </a> <!-- verifyUserPageNavigation -->
                   <span class="method-name">verifyUserPageNavigation</span>
@@ -171,7 +183,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Murari\AppData\Local\Temp\testng-eclipse--223478666\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Murari\AppData\Local\Temp\testng-eclipse--1047142862\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -220,28 +232,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyUserPageNavigation')
 data.setCell(0, 2, 'scripts.UserPageScript')
-data.setCell(0, 3, 6773);
+data.setCell(0, 3, 27541);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyUserSearchWithInvalidUserName')
 data.setCell(1, 2, 'scripts.UserPageScript')
-data.setCell(1, 3, 3499);
+data.setCell(1, 3, 3788);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SearchWithValidUser')
+data.setCell(2, 1, 'searchByEss')
 data.setCell(2, 2, 'scripts.UserPageScript')
-data.setCell(2, 3, 2754);
+data.setCell(2, 3, 3330);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'SearchByAdmin')
+data.setCell(3, 1, 'SearchWithValidUser')
 data.setCell(3, 2, 'scripts.UserPageScript')
-data.setCell(3, 3, 1883);
+data.setCell(3, 3, 2620);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SearchByAdmin')
+data.setCell(4, 2, 'scripts.UserPageScript')
+data.setCell(4, 3, 1806);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -274,39 +290,47 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyUserPageNavigation</span>
-                <span class="method-start">11563 ms</span>
+                <span class="method-start">8953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fatchReportInformation([TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigat...)</span>
-                <span class="method-start">18340 ms</span>
+                <span class="method-start">36496 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyUserSearchWithInvalidUserName</span>
-                <span class="method-start">18556 ms</span>
+                <span class="method-start">36680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fatchReportInformation([TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUser...)</span>
-                <span class="method-start">22057 ms</span>
+                <span class="method-start">40470 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">SearchWithValidUser</span>
-                <span class="method-start">22059 ms</span>
+                <span class="method-start">40472 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fatchReportInformation([TestResult name=SearchWithValidUser status=SUCCESS method=UserPageScript.SearchWithValidUser()[pri:...)</span>
-                <span class="method-start">24815 ms</span>
+                <span class="method-start">43094 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">SearchByAdmin</span>
-                <span class="method-start">24817 ms</span>
+                <span class="method-start">43096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fatchReportInformation([TestResult name=SearchByAdmin status=SUCCESS method=UserPageScript.SearchByAdmin()[pri:4, instance:...)</span>
-                <span class="method-start">26702 ms</span>
+                <span class="method-start">44904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchByEss</span>
+                <span class="method-start">44906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fatchReportInformation([TestResult name=searchByEss status=SUCCESS method=UserPageScript.searchByEss()[pri:5, instance:scri...)</span>
+                <span class="method-start">48237 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">stopFatchingReportInformation</span>
-                <span class="method-start">26747 ms</span>
+                <span class="method-start">48311 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

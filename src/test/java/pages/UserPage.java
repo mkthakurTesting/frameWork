@@ -56,7 +56,7 @@ public class UserPage {
 		return b;
 
 	}
-    public static boolean  searchByUserRole(WebDriver driver ,String DropDownValue){
+    public static boolean  SearchByUserRole(WebDriver driver ,String DropDownValue){
        boolean b = true ;
        String userRoleColumn="User Role";
     	 
@@ -76,4 +76,5 @@ public class UserPage {
     	
          
     }
+    
  }
