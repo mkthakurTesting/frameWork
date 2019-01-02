@@ -7,12 +7,18 @@
         <methods>
           <include name="verifyYoutubeLink"/>
           <include name="openBrowser"/>
+<<<<<<< HEAD
           <include name="verifyFacebookLink"/>
           <include name="verifyTwitterLink"/>
           <include name="verifyLogin"/>
           <include name="fatchReportInformation"/>
           <include name="stopFatchingReportInformation"/>
           <include name="verifyOrangeHrMLink"/>
+=======
+          <include name="fatchReportInformation"/>
+          <include name="stopFatchingReportInformation"/>
+          <include name="SearchByAdmin"/>
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
         </methods>
       </class> <!-- scripts.LoginPageScript -->
     </classes>

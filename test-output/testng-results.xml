@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="4" failed="1" ignored="0" total="8" passed="3">
   <reporter-output>
   </reporter-output>
@@ -8,6 +9,17 @@
     <test name="Default test" duration-ms="9528" started-at="2019-01-02T11:13:33Z" finished-at="2019-01-02T11:13:42Z">
       <class name="scripts.LoginPageScript">
         <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="openBrowser" is-config="true" duration-ms="2968" started-at="2019-01-02T16:43:30Z" finished-at="2019-01-02T16:43:33Z">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39328" started-at="2018-12-26T02:32:44Z" finished-at="2018-12-26T02:33:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39328" started-at="2018-12-26T02:32:44Z" finished-at="2018-12-26T02:33:24Z">
+      <class name="scripts.UserPageScript">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@1efed156]" name="openBrowser" is-config="true" duration-ms="8910" started-at="2018-12-26T08:02:36Z" finished-at="2018-12-26T08:02:44Z">
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
           <params>
             <param index="0">
               <value>
@@ -18,6 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@1f7030a6]" name="verifyLoginPageExistance" duration-ms="1809" started-at="2019-01-02T16:43:33Z" finished-at="2019-01-02T16:43:34Z">
           <params>
             <param index="0">
@@ -34,12 +47,24 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=verifyLoginPageExistance status=SUCCESS method=LoginPageScript.verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
+=======
+        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156]" name="verifyUserPageNavigation" duration-ms="27541" started-at="2018-12-26T08:02:45Z" finished-at="2018-12-26T08:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPageNavigation -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="182" started-at="2018-12-26T08:03:12Z" finished-at="2018-12-26T08:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@1f7030a6]" name="verify_Username_Password_LoginButtonField" duration-ms="29" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
           <params>
             <param index="0">
@@ -56,12 +81,24 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=verify_Username_Password_LoginButtonField status=SUCCESS method=LoginPageScript.verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
+=======
+        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156]" name="verifyUserSearchWithInvalidUserName" duration-ms="3788" started-at="2018-12-26T08:03:12Z" finished-at="2018-12-26T08:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserSearchWithInvalidUserName -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:16Z" finished-at="2018-12-26T08:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@1f7030a6]" name="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection" duration-ms="364" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
           <params>
             <param index="0">
@@ -78,12 +115,24 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection status=SUCCESS method=LoginPageScript.verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
+=======
+        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156]" name="SearchWithValidUser" duration-ms="2620" started-at="2018-12-26T08:03:16Z" finished-at="2018-12-26T08:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidUser -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:19Z" finished-at="2018-12-26T08:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidUser status=SUCCESS method=UserPageScript.SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
+<<<<<<< HEAD
         <test-method status="FAIL" signature="verifyOrangeHrMLink()[pri:4, instance:scripts.LoginPageScript@1f7030a6]" name="verifyOrangeHrMLink" duration-ms="6974" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:42Z">
           <exception class="java.lang.AssertionError">
             <message>
@@ -355,6 +404,39 @@
           </reporter-output>
         </test-method> <!-- verifyYoutubeLink -->
         <test-method status="SKIP" signature="stopFatchingReportInformation()[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="stopFatchingReportInformation" is-config="true" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+=======
+        <test-method status="PASS" signature="SearchByAdmin()[pri:4, instance:scripts.UserPageScript@1efed156]" name="SearchByAdmin" duration-ms="1806" started-at="2018-12-26T08:03:19Z" finished-at="2018-12-26T08:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByAdmin -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-26T08:03:20Z" finished-at="2018-12-26T08:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchByAdmin status=SUCCESS method=UserPageScript.SearchByAdmin()[pri:4, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="searchByEss()[pri:5, instance:scripts.UserPageScript@1efed156]" name="searchByEss" duration-ms="3330" started-at="2018-12-26T08:03:20Z" finished-at="2018-12-26T08:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEss -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@1efed156]" name="fatchReportInformation" is-config="true" duration-ms="2" started-at="2018-12-26T08:03:24Z" finished-at="2018-12-26T08:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByEss status=SUCCESS method=UserPageScript.searchByEss()[pri:5, instance:scripts.UserPageScript@1efed156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@1efed156]" name="stopFatchingReportInformation" is-config="true" duration-ms="5168" started-at="2018-12-26T08:03:24Z" finished-at="2018-12-26T08:03:29Z">
+>>>>>>> 56670173d99bb7628481224a49fac4ac3e47dc24
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFatchingReportInformation -->

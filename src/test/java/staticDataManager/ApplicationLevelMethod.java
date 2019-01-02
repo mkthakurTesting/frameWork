@@ -116,13 +116,51 @@ public class ApplicationLevelMethod {
 			
 		}else {
 			
-			logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
+		logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
 		}
 		logger.info("getColumnData()...Returning---"+columnData);
 		
 		return columnData;
 		
 	}
+	public static boolean getAllColumeWiseData(WebDriver driver ,String columnName ,String selectedDropDownValue){
+
+		 boolean isDropDownValueMatched = true ;
+		   
+		   int IndexMatched =	getIndexValueWhereColumnMatching(driver, columnName);
+		   int headingCount = getTotalHeading(driver);
+		   int totalRow = getTotalRowCount(driver);
+		 
+		
+    if(isColumnHeadingMatching(driver, columnName)&&totalRow >1){
+			         
+		  
+		    for(int i=2 ;i<= totalRow ;i++){
+		    	 
+		    	 String data = "(//tr)["+i+"]/td["+IndexMatched+"]";
+		    	 By dataLoc = By.xpath(data);
+		    	 ScriptExecutor.scrollInToView(dataLoc);
+		    	String columnData = Element.getText(driver, dataLoc);
+		    	 if(columnData.contains(selectedDropDownValue)){
+		    		 
+		    		 isDropDownValueMatched = true ;
+		    }else{
+		    	 isDropDownValueMatched = false ;
+	    		   break ;
+		    }
+		   
+		    }
+		}else {
+			
+		logger.info("getColumnData()...Failed From Execution Given column name ----"+columnName+" Not matched");
+		}
+		logger.info("getColumnData()...Returning---"+isDropDownValueMatched);
+		
+		return isDropDownValueMatched;
+		
+	}	
+		
+	}
 	  
     
-}
+
