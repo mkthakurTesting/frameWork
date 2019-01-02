@@ -28,7 +28,7 @@ public class Wait {
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.MILLISECONDS);
 		wait.ignoring(Exception.class);
-		logger.info("getWait() Executed Assigned  time is [ " + timeOutInSeconds + "] polling time is [ "
+		logger.info("getWait()... Executed Assigned  time is [ " + timeOutInSeconds + "] polling time is [ "
 				+ pollingEveryInMiliSec + " ]");
 		return wait;
 	}
@@ -38,7 +38,7 @@ public class Wait {
 		try {
 			WebDriverWait wait = getWait(driver, timeInSec, pollingEveryInMiliSec);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-			logger.info("waitForVisibilityOfElement() executed ... founded locator is [ " + locator + " ]");
+			logger.info("waitForVisibilityOfElement()... executed For this  locator :-- [ " + locator + " ]");
 		} catch (Exception e) {
 			logger.info("waitForVisibilityOfElement() failed from execution on [ " + locator + " ]message is "
 					+ e.getMessage());
@@ -53,7 +53,7 @@ public class Wait {
 		try {
 			WebDriverWait wait = getWait(driver, timeInSec, pollingEveryInMiliSec);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-			logger.info("checkElementExistance() executed .... founded locator is --[ " + locator + " ]");
+			logger.info("checkElementExistance()... executed on  locator [ " + locator + " ]");
 			b = true;
 		} catch (Exception e) {
 			logger.info("checkElementExistance() failed from execution on  --[" + locator + " ] " + e.getMessage());
@@ -153,25 +153,26 @@ public class Wait {
 
 		}
 	}
-	public static void implicitWait(WebDriver driver ,int timeInSec){
-		
+
+	public static void implicitWait(WebDriver driver, int timeInSec) {
+
 		driver.manage().timeouts().implicitlyWait(timeInSec, TimeUnit.SECONDS);
-		logger.info("implicitWait()...Executed---provided time is "+timeInSec);
-		
-		
+		logger.info("implicitWait()...Executed---provided time is " + timeInSec);
+
 	}
-	public static void waitTillPageLoad(WebDriver driver , int time){
-		
+
+	public static void waitTillPageLoad(WebDriver driver, int time) {
+
 		driver.manage().timeouts().pageLoadTimeout(time, TimeUnit.SECONDS);
-		
-		
+
 	}
-   public static void staticWait(int timeInMillesec){
-	   try {
-		Thread.sleep(timeInMillesec);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+
+	public static void staticWait(int timeInMillesec) {
+		try {
+			Thread.sleep(timeInMillesec);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-   }
 }

@@ -1,73 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="4" failed="1" ignored="0" total="8" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10676" started-at="2018-12-17T11:20:39Z" finished-at="2018-12-17T11:20:50Z">
+  <suite name="Default suite" duration-ms="9528" started-at="2019-01-02T11:13:33Z" finished-at="2019-01-02T11:13:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10676" started-at="2018-12-17T11:20:39Z" finished-at="2018-12-17T11:20:50Z">
-      <class name="scripts.UserPageScript">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="openBrowser" is-config="true" duration-ms="8390" started-at="2018-12-17T16:50:31Z" finished-at="2018-12-17T16:50:39Z">
+    <test name="Default test" duration-ms="9528" started-at="2019-01-02T11:13:33Z" finished-at="2019-01-02T11:13:42Z">
+      <class name="scripts.LoginPageScript">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="openBrowser" is-config="true" duration-ms="2968" started-at="2019-01-02T16:43:30Z" finished-at="2019-01-02T16:43:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@6737fd8f]" name="verifyUserPageNavigation" duration-ms="5405" started-at="2018-12-17T16:50:39Z" finished-at="2018-12-17T16:50:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserPageNavigation -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="129" started-at="2018-12-17T16:50:45Z" finished-at="2018-12-17T16:50:45Z">
+        <test-method status="PASS" signature="verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@1f7030a6]" name="verifyLoginPageExistance" duration-ms="1809" started-at="2019-01-02T16:43:33Z" finished-at="2019-01-02T16:43:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserPageNavigation status=SUCCESS method=UserPageScript.verifyUserPageNavigation()[pri:1, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[public void scripts.LoginPageScript.verifyLoginPageExistance(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageExistance -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="fatchReportInformation" is-config="true" duration-ms="203" started-at="2019-01-02T16:43:34Z" finished-at="2019-01-02T16:43:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageExistance status=SUCCESS method=LoginPageScript.verifyLoginPageExistance(java.lang.reflect.Method)[pri:1, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@6737fd8f]" name="verifyUserSearchWithInvalidUserName" duration-ms="2667" started-at="2018-12-17T16:50:45Z" finished-at="2018-12-17T16:50:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserSearchWithInvalidUserName -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="1" started-at="2018-12-17T16:50:47Z" finished-at="2018-12-17T16:50:47Z">
+        <test-method status="PASS" signature="verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@1f7030a6]" name="verify_Username_Password_LoginButtonField" duration-ms="29" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserSearchWithInvalidUserName status=SUCCESS method=UserPageScript.verifyUserSearchWithInvalidUserName()[pri:2, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[public void scripts.LoginPageScript.verify_Username_Password_LoginButtonField(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Username_Password_LoginButtonField -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="fatchReportInformation" is-config="true" duration-ms="3" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Username_Password_LoginButtonField status=SUCCESS method=LoginPageScript.verify_Username_Password_LoginButtonField(java.lang.reflect.Method)[pri:2, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@6737fd8f]" name="SearchWithValidUser" duration-ms="2440" started-at="2018-12-17T16:50:47Z" finished-at="2018-12-17T16:50:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchWithValidUser -->
-        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="fatchReportInformation" is-config="true" duration-ms="6" started-at="2018-12-17T16:50:50Z" finished-at="2018-12-17T16:50:50Z">
+        <test-method status="PASS" signature="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@1f7030a6]" name="verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection" duration-ms="364" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchWithValidUser status=SUCCESS method=UserPageScript.SearchWithValidUser()[pri:3, instance:scripts.UserPageScript@6737fd8f] output={null}]]]>
+                <![CDATA[public void scripts.LoginPageScript.verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection -->
+        <test-method status="PASS" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="fatchReportInformation" is-config="true" duration-ms="16" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection status=SUCCESS method=LoginPageScript.verifyUserIsAbleToEnterDataOrNotIn_userNameAndPasswordSection(java.lang.reflect.Method)[pri:3, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fatchReportInformation -->
-        <test-method status="PASS" signature="stopFatchingReportInformation()[pri:0, instance:scripts.UserPageScript@6737fd8f]" name="stopFatchingReportInformation" is-config="true" duration-ms="6433" started-at="2018-12-17T16:50:50Z" finished-at="2018-12-17T16:50:56Z">
+        <test-method status="FAIL" signature="verifyOrangeHrMLink()[pri:4, instance:scripts.LoginPageScript@1f7030a6]" name="verifyOrangeHrMLink" duration-ms="6974" started-at="2019-01-02T16:43:35Z" finished-at="2019-01-02T16:43:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at scripts.LoginPageScript.verifyOrangeHrMLink(LoginPageScript.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHrMLink -->
+        <test-method status="FAIL" signature="fatchReportInformation(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="fatchReportInformation" is-config="true" duration-ms="15" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrangeHrMLink status=FAILURE method=LoginPageScript.verifyOrangeHrMLink()[pri:4, instance:scripts.LoginPageScript@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot
+	at utility.ScreenShot.getScreenShotPath(ScreenShot.java:43)
+	at Reports.ExtentReport.getFailureTestCaseImage(ExtentReport.java:33)
+	at Reports.ExtentReport.getTestCaseStatus(ExtentReport.java:50)
+	at invokeBrowser.StartBrowser.fatchReportInformation(StartBrowser.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fatchReportInformation -->
+        <test-method status="SKIP" signature="verifyFacebookLink()[pri:6, instance:scripts.LoginPageScript@1f7030a6]" name="verifyFacebookLink" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot
+	at utility.ScreenShot.getScreenShotPath(ScreenShot.java:43)
+	at Reports.ExtentReport.getFailureTestCaseImage(ExtentReport.java:33)
+	at Reports.ExtentReport.getTestCaseStatus(ExtentReport.java:50)
+	at invokeBrowser.StartBrowser.fatchReportInformation(StartBrowser.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookLink -->
+        <test-method status="SKIP" signature="verifyLogin(java.lang.reflect.Method)[pri:9, instance:scripts.LoginPageScript@1f7030a6]" name="verifyLogin" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot
+	at utility.ScreenShot.getScreenShotPath(ScreenShot.java:43)
+	at Reports.ExtentReport.getFailureTestCaseImage(ExtentReport.java:33)
+	at Reports.ExtentReport.getTestCaseStatus(ExtentReport.java:50)
+	at invokeBrowser.StartBrowser.fatchReportInformation(StartBrowser.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="SKIP" signature="verifyTwitterLink()[pri:7, instance:scripts.LoginPageScript@1f7030a6]" name="verifyTwitterLink" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot
+	at utility.ScreenShot.getScreenShotPath(ScreenShot.java:43)
+	at Reports.ExtentReport.getFailureTestCaseImage(ExtentReport.java:33)
+	at Reports.ExtentReport.getTestCaseStatus(ExtentReport.java:50)
+	at invokeBrowser.StartBrowser.fatchReportInformation(StartBrowser.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterLink -->
+        <test-method status="SKIP" signature="verifyYoutubeLink()[pri:8, instance:scripts.LoginPageScript@1f7030a6]" name="verifyYoutubeLink" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.htmlunit.HtmlUnitDriver cannot be cast to org.openqa.selenium.TakesScreenshot
+	at utility.ScreenShot.getScreenShotPath(ScreenShot.java:43)
+	at Reports.ExtentReport.getFailureTestCaseImage(ExtentReport.java:33)
+	at Reports.ExtentReport.getTestCaseStatus(ExtentReport.java:50)
+	at invokeBrowser.StartBrowser.fatchReportInformation(StartBrowser.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYoutubeLink -->
+        <test-method status="SKIP" signature="stopFatchingReportInformation()[pri:0, instance:scripts.LoginPageScript@1f7030a6]" name="stopFatchingReportInformation" is-config="true" duration-ms="0" started-at="2019-01-02T16:43:42Z" finished-at="2019-01-02T16:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopFatchingReportInformation -->
-      </class> <!-- scripts.UserPageScript -->
+      </class> <!-- scripts.LoginPageScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

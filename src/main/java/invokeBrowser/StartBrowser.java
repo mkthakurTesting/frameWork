@@ -2,12 +2,13 @@ package invokeBrowser;
 
 
 
+
 import org.apache.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -44,7 +45,15 @@ public class StartBrowser {
 			System.setProperty("webdriver.gecko.driver", "./driverFile/geckodriver.exe");
 			driver = new FirefoxDriver();
 			logger.info(" * Test case Execution Start On firefox Browser * ");
+			startBasicOperationOnBrowser(driver, "https://opensource-demo.orangehrmlive.com/");
+		}else if(browserName.contains("html")){
+			
+			  driver = new HtmlUnitDriver();
+				startBasicOperationOnBrowser(driver, "https://opensource-demo.orangehrmlive.com/");
+			  
+		
 		}
+		
 
 	}
 
@@ -74,6 +83,15 @@ public class StartBrowser {
 		Browser.switchToWindowUsingIndex(driver, 2);
 		driver.get(PathManager.getLoggerFileLocation());
 
+	}
+	
+	public void configureHeadlessBrowser(){
+		
+	  driver = new HtmlUnitDriver(true);
+	  
+	  driver.get("https://www.facebook.com");
+	 String title = driver.getTitle();
+	  System.out.println(title);
 	}
 
 }

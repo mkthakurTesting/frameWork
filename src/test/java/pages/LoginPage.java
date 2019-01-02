@@ -86,7 +86,7 @@ public class LoginPage {
 
 	public static void loginValidator(WebDriver driver) {
 
-		boolean b = false;
+		
 
 		ExcelReader excelreader = new ExcelReader(PathManager.getExcelFileLocation("TestDataForOrangeHRM.xlsx"));
 		int i = 0;

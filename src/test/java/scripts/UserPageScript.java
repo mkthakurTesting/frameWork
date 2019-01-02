@@ -30,6 +30,7 @@ public class UserPageScript extends StartBrowser {
 	boolean b = UserPage.searchUserNameUsingValidData(driver, "Username", 2);
 	
 	Assert.assertTrue(b);
+	
 	 
 	}
 }

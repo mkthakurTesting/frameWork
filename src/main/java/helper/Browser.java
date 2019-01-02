@@ -16,7 +16,7 @@ public class Browser {
 	public static void maximizeBrowser(WebDriver driver) {
 
 		driver.manage().window().maximize();
-		logger.info("maximizeBrowser()...executed--- Browser Maximized");
+		logger.info("maximizeBrowser()...executed[ Browser maximized ]");
 		 
 
 	}
@@ -24,21 +24,21 @@ public class Browser {
 	public static void loadUrl(WebDriver driver, String enterUrl) {
 
 		driver.get(enterUrl);
-		logger.info("loadUrl()...executed---Loaded Url Is --"+enterUrl);
+		logger.info("loadUrl()...executed [ Loaded url is :- "+enterUrl+ " ]");
 	}
 
 	public static void navigateToUrl(WebDriver driver, String enterUrl) {
 
 		driver.navigate().to(enterUrl);
 		
-		logger.info( "navigateToUrl()...executed--- Browser Navigated To "+enterUrl);
+		logger.info( "navigateToUrl()...executed [ Browser Navigated To "+enterUrl+" ]");
 	}
 
 	public static void navigateBack(WebDriver driver) {
 
 		driver.navigate().back();
 		String currentUrl = driver.getCurrentUrl();
-		logger.info("navigateBack()...executed---Browser Navigated Back To "+currentUrl);
+		logger.info("navigateBack()...executed [ Browser Navigated Back To "+currentUrl +" ]");
 		
 	}
 
@@ -46,7 +46,7 @@ public class Browser {
 
 		driver.navigate().forward();
 		String currentUrl = driver.getCurrentUrl();
-		logger.info("navigateForward()...executed---Browser Navigated Forward to"+currentUrl);
+		logger.info("navigateForward()...executed [ Browser Navigated Forward to"+currentUrl +" ]");
 
 	}
 

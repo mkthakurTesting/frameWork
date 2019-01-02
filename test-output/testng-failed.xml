@@ -3,14 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="scripts.UserPageScript">
+      <class name="scripts.LoginPageScript">
         <methods>
+          <include name="verifyYoutubeLink"/>
           <include name="openBrowser"/>
-          <include name="SearchWithValidUser"/>
+          <include name="verifyFacebookLink"/>
+          <include name="verifyTwitterLink"/>
+          <include name="verifyLogin"/>
           <include name="fatchReportInformation"/>
           <include name="stopFatchingReportInformation"/>
+          <include name="verifyOrangeHrMLink"/>
         </methods>
-      </class> <!-- scripts.UserPageScript -->
+      </class> <!-- scripts.LoginPageScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
